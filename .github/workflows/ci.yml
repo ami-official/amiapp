@@ -42,7 +42,7 @@ jobs:
 
       # ✅ Étape 6 : Création du fichier CNAME (automatique)
       - name: Create CNAME file
-        run: echo "ami-plateform.com" > ./dist/amiapp/CNAME
+        run: echo "ami-platform.com" > ./dist/amiapp/CNAME
 
       # Étape 7 : Déploiement sur GitHub Pages
       - name: Deploy to GitHub Pages
